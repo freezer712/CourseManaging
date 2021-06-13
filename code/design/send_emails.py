@@ -6,7 +6,7 @@ import random
 
 from_addr = 'admin<freezer712@qq.com>' #sender username and address
 address = from_addr.split('<')[1].split('>')[0]##sender addr
-password = 'xjnwigxjrssbcbbg'
+password = 'your password'
 
 def message(length:int):
     code = rand(length)
